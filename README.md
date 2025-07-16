@@ -4,7 +4,7 @@ Ini adalah panduan untuk memahami konsep dasar Laravel yang wajib kamu kuasai. F
 
 | Topik               | Sub-Topik                                     | Penjelasan/Fungsi Kunci                                     |
 | :------------------ | :-------------------------------------------- | :---------------------------------------------------------- |
-| **Instalasi & Setup** | Instal Laravel (via Composer)                 | Cara memulai proyek Laravel baru.                           |
+| **Instalasi & Setup** | Instal Laravel (via Composer) Ini adalah contoh tautan ke [GitHub Docs](https://docs.github.com).                 | Cara memulai proyek Laravel baru.                           |
 |                     | Struktur folder Laravel                       | Memahami tata letak direktori proyek.                       |
 |                     | Konfigurasi `.env`, koneksi database          | Pengaturan lingkungan aplikasi dan koneksi ke database.     |
 | **Routing** | Route dasar (`Route::get`, `Route::post`)   | Mendefinisikan URL dan aksi yang dilakukan.                 |

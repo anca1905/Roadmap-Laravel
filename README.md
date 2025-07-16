@@ -1,62 +1,27 @@
+# Roadmap Belajar Laravel: Level Dasar
 
-### 📚 **Roadmap Belajar Laravel**
+Ini adalah panduan untuk memahami konsep dasar Laravel yang wajib kamu kuasai. Fokus utama ada pada struktur proyek, alur kerja dasar, dan operasi **CRUD** (Create, Read, Update, Delete).
 
-### 🟢 **Level Dasar – Wajib Paham Banget**
-
-> Fokus ke struktur, alur kerja dasar, dan CRUD.
-> 
-1. **Instalasi & Setup**
-    - Instal Laravel (via Composer)
-    - Struktur folder Laravel
-    - Konfigurasi `.env`, koneksi database
-2. **Routing**
-    - Route dasar (`Route::get`, `Route::post`)
-    - Named route
-    - Route with parameter
-    - Route group & prefix
-3. **HTTP Method**
-    - GET, POST, PUT, PATCH, DELETE
-    - Method spoofing (`@method('PUT')`)
-4. **Controller**
-    - Buat controller
-    - Pemisahan logic dari route
-    - Passing data ke view (`return view(...)`)
-5. **View & Blade**
-    - Layouting Blade (`@extends`, `@section`)
-    - Loop dan kondisi di Blade (`@foreach`, `@if`)
-    - Include komponen view (`@include`, `@component`)
-6. **Form & Request**
-    - Buat form (`@csrf`)
-    - Tangkap input request
-    - **Form Request Validation**
-7. **Model & Database (Eloquent ORM)**
-    - Buat model dan migration
-    - Query dasar: `all()`, `find()`, `where()`, `create()`, `update()`, `delete()`
-    - Relasi antar tabel: `hasOne`, `hasMany`, `belongsTo`, `belongsToMany`
-
----
-
-### 🟡 **Level Menengah – Modular dan Aman**
-
-> Fokus ke validasi, otentikasi, filtering, dan manajemen user.
-> 
-1. **Authentication & Authorization**
-    - `Auth::attempt()`, `Auth::user()`, `Auth::logout()`
-    - Middleware `auth`
-    - Role-based access (multi role)
-    - Session (simpan data login, flash message, dsb)
-2. **Form Request (Validasi Custom)**
-    - Buat `php artisan make:request`
-    - Validasi khusus per-form
-    - Custom message error
-3. **Session & Flash Message**
-    - Simpan data ke session (`session([...])`)
-    - Ambil data (`session('key')`)
-    - Flash message sukses/gagal
-4. **Global & Local Scope (Model)**
-    - Buat query reusable
-    - Filter otomatis (global)
-    - Penerapan di fitur peminjaman & user aktif
-5. **Soft Delete**
-    - `use SoftDeletes`
-    - `withTrashed()`, `onlyTrashed()`, `restore()`
+| Topik               | Sub-Topik                                     | Penjelasan/Fungsi Kunci                                     |
+| :------------------ | :-------------------------------------------- | :---------------------------------------------------------- |
+| **Instalasi & Setup** | Instal Laravel (via Composer)                 | Cara memulai proyek Laravel baru.                           |
+|                     | Struktur folder Laravel                       | Memahami tata letak direktori proyek.                       |
+|                     | Konfigurasi `.env`, koneksi database          | Pengaturan lingkungan aplikasi dan koneksi ke database.     |
+| **Routing** | Route dasar (`Route::get`, `Route::post`)   | Mendefinisikan URL dan aksi yang dilakukan.                 |
+|                     | Named route                                   | Memberi nama pada route untuk mempermudah pemanggilan.      |
+|                     | Route with parameter                          | Mengambil data dari URL.                                    |
+|                     | Route group & prefix                          | Mengelompokkan route untuk pengaturan yang lebih rapi.      |
+| **HTTP Method** | `GET`, `POST`, `PUT`, `PATCH`, `DELETE`       | Jenis permintaan HTTP untuk operasi data.                   |
+|                     | Method spoofing (`@method('PUT')`)            | Menggunakan method `PUT/PATCH/DELETE` pada form HTML.      |
+| **Controller** | Buat controller                               | Memisahkan logika aplikasi dari route.                      |
+|                     | Pemisahan logic dari route                    | Mengorganisir kode agar lebih bersih dan mudah dikelola.    |
+|                     | Passing data ke view (`return view(...)`)     | Mengirim data dari controller ke tampilan.                  |
+| **View & Blade** | Layouting Blade (`@extends`, `@section`)      | Membuat tata letak halaman yang reusable.                   |
+|                     | Loop dan kondisi di Blade (`@foreach`, `@if`)| Menampilkan data secara iteratif dan bersyarat.             |
+|                     | Include komponen view (`@include`, `@component`)| Menggunakan kembali bagian tampilan.                        |
+| **Form & Request** | Buat form (`@csrf`)                           | Membuat formulir HTML yang aman (CSRF token).               |
+|                     | Tangkap input request                         | Mengambil data yang dikirim melalui formulir.               |
+|                     | Form Request Validation                       | Validasi input formulir secara terstruktur.                 |
+| **Model & Database (Eloquent ORM)**| Buat model dan migration      | Membuat representasi tabel database dan skema tabel.        |
+|                     | Query dasar: `all()`, `find()`, `where()`, `create()`, `update()`, `delete()`| Operasi dasar untuk mengelola data di database.             |
+|                     | Relasi antar tabel: `hasOne`, `hasMany`, `belongsTo`, `belongsToMany`| Mendefinisikan hubungan antar tabel database.               |

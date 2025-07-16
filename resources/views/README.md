@@ -24,14 +24,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/halo', function () {
     return 'Halo, Laravel!';
 });
-
+---
 📌 Buka `http://localhost:8000/halo` → akan muncul:
 **Halo, Laravel!**
 
----
-
 ### 🚦 MACAM-MACAM ROUTING (HTTP METHODS)
-
+---
 | HTTP Method | Fungsi               | Contoh Routing           |
 | ----------- | -------------------- | ------------------------ |
 | GET         | Menampilkan data     | `Route::get()`           |

@@ -1,6 +1,5 @@
 Berikut adalah versi **README.md** yang diformat untuk GitHub, berdasarkan materi tentang Routing di Laravel:
 
-````markdown
 # 🚀 Memulai Laravel: Memahami Routing
 
 Selamat datang! Di panduan ini, kamu akan belajar dasar **Routing di Laravel** — fondasi utama dari setiap aplikasi web Laravel. Yuk, mulai dari konsep hingga praktik langsung! 💡
@@ -25,7 +24,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/halo', function () {
     return 'Halo, Laravel!';
 });
-````
 
 📌 Buka `http://localhost:8000/halo` → akan muncul:
 **Halo, Laravel!**

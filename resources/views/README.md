@@ -112,10 +112,3 @@ Route::post('/buku/simpan', [BukuController::class, 'store']);
 | `controller`    | Tempat menyimpan logika program Laravel, agar lebih terstruktur. |
 
 ---
-
-Selamat mencoba, dan semoga belajar Routing Laravel jadi lebih mudah! 🚀
-
-```
-
-Jika kamu ingin, saya juga bisa bantu buatkan _repository template_ untuk ini di GitHub atau menambahkan badge dan struktur direktori proyeknya.
-```

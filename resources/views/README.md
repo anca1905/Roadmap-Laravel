@@ -39,7 +39,6 @@ Route::get('/halo', function () {
 | DELETE      | Hapus data           | `Route::delete()`        |
 
 ---
-```
 ### 🧪 CONTOH ROUTING DENGAN SEMUA METHOD
 
 ```php

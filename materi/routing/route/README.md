@@ -1,5 +1,3 @@
-Berikut adalah versi **README.md** yang diformat untuk GitHub, berdasarkan materi tentang Routing di Laravel:
-
 # 🚀 Memulai Laravel: Memahami Routing
 
 Selamat datang! Di panduan ini, kamu akan belajar dasar **Routing di Laravel** — fondasi utama dari setiap aplikasi web Laravel. Yuk, mulai dari konsep hingga praktik langsung! 💡
